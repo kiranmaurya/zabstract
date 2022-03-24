@@ -1,0 +1,35 @@
+/* nav */
+
+/* first */
+
+/* mid */
+
+
+
+   /* secondmid  */
+.secondmid h2{
+    text-align: center;
+}
+.secondmid .swiper-container{
+	min-height: 100px;
+	width: 60%;
+	display: flex;
+	flex-direction: column;  
+}
+.swiper-wrapper{
+	display: flex;
+	justify-content: space-between;
+	overflow:scroll;
+}
+.swiper-slide{
+    position: relative;
+	height: 180px;
+}
+
+/* Clients */
+
+/* Work */
+
+/* Contact */
+
+/* social */
