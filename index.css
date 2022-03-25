@@ -1,4 +1,23 @@
 /* nav */
+nav{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+nav li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav li a{
+    color: #1d1d24;
+	text-decoration: none;
+    position: relative;
+    padding: 5px 0;
+}
+nav li a:hover{
+    color: #fd9947;
+}
 
 /* first */
 
