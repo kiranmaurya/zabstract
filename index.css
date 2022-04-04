@@ -43,17 +43,23 @@ nav li a:hover{
     font-family: Snell Roundhand, cursive;
     font-weight:bolder;
 }
+.secondmid h2{
+    color: #E1701A;
+    font-weight: bold;
+}
 .secondmid .swiper-container{
 	min-height: 100px;
 	width: 100%;
 	display: flex;
-    background:#1d1d24;
 	flex-direction: column;  
 }
 .swiper-wrapper{
 	display: flex;
 	justify-content: space-between;
-	overflow:scroll;
+	overflow:auto;
+    margin-left: 200px;
+    margin-right: 200px;
+
 }
 .swiper-slide{
     position: relative;
@@ -63,9 +69,39 @@ nav li a:hover{
 }
 
 /* Clients */
+.Clients h3{
+    color: #E1701A;
+    text-align: center;
+}
+.Clients img{
+    display:inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+}
 
 /* Work */
+.work{
+    text-align: center;
+}
+.Work h4{
+    color: #E1701A;
+}
 
 /* Contact */
-
+.Contact{
+    text-align: center;
+}
+.Contact h2{
+    color: #E1701A;
+}
+.Contact h3{
+    color: #E1701A;
+}
 /* social */
+.social{
+    text-align: center;
+}
+.social a{
+    color:aliceblue;
+}
