@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@600&family=Grape+Nuts&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Advent Pro', sans-ser;
+}
+body{
+    background-color: #ffc745;
+}
+/* header */
+
+li, a, button{
+    font-weight: 1000;
+    font-size: 20px;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    background-color: gainsboro;
+    border-radius: 0px 0px 20px 20px;
+
+}
+
+.logo{
+    height: 70px;
+    width: 115px;
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+    color: black;
+
+}
+.nav_links li a:hover{
+    color: #FFB72B;
+    font-size: 30px;
+}
+
+.cta button{
+    padding: 9px 25px;
+    background-color:#FFB72B;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 2px 1px black;
+    transition: all 300ms ease 0s;
+}
+.cta button:hover{
+    background-color: #ffbf2f   ;
+    border-radius: 50px;
+    box-shadow: 0 0 2px 1px black;
+}
+/* section */
+#zabs{
+    color: orange;
+    text-shadow: 2px 2px black
+}
+.heading{
+    color: white;
+    font-size: 29pt;
+    text-align: center;
+    margin-left: 90%;
+    writing-mode: vertical-lr;
+    text-orientation: upright; 
+    text-shadow: 2px 2px black;
+}
+
+/* h1 hi class */
+.hi{
+    display: inline-block;
+    font-size: 80pt;
+    transition: 300ms;
+}
+.hi:hover{
+    color: orange;
+}
+.hi::after {
+    content: '';
+    width: 0px;
+    height: 10px;
+    display: block;
+    background: orange;
+    transition: 300ms;
+}
+.hi:hover::after {
+    width: 100%;
+    text-decoration: underline;   
+}
+.about #IN{
+    color: #FF9933;
+
+}
+.about #D{
+    color: #FFFF;
+
+}
+.about #IA{
+    color: #138808;
+
+}
+
+.about{
+    font-size: 20pt;
+    color: white;
+    background-color: #333;
+    width: 400px;
+    border-radius: 25px;
+    box-shadow: 4px 8px grey; 
+    padding: 2%;
+    margin-top: 100px;
+    margin-left: 100px;
+    position: absolute;
+    top: 70px;
+    transition: 300ms;
+}
+.about:hover{
+    box-shadow: 8px 16px grey;
+}
+
+
+/* Footer */
+footer {
+    background-color: #333;
+    width: 15%;
+    height: 8px;
+    bottom: 10px;
+    position: fixed;
+    right: 42%;
+    left: 42%;
+    border-radius: 50px;
+    transition: 2s;
+}
+footer:hover{
+    background:#685736;
+
+}
+/* contact card */
+.details{
+    text-align: center;
+    font-size: 30pt;
+}
+.contact{
+    list-style: none;
+    justify-content: space-between;
+    margin: auto;
+    width: 220px;
+
+
+}
+#name, #email, #number, #mess{
+    padding: 6px;
+    font-size: 20pt;
+    border-radius: 15px;
+    border: none;
+    display: inline-block;
+    background-color: aliceblue;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    
+}
+#name, #email, #number, #mess{
+    resize: horizontal;
+    width: 200px;
+}
+input:focus {
+    border: 3px solid rgb(0, 0, 0);
+    background-color: #138808;
+  }
+}
+#mess{
+    padding: 50px;
+}
+
+  
