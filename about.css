@@ -64,7 +64,7 @@ header h1{
   .nav-container {
     display: block;
     position: relative;
-    height: 60px;
+    height: 100px;
   }
   
   .nav-container .checkbox {
@@ -135,10 +135,10 @@ header h1{
   }
   
   .logo {
-    position:fixed;
+    position:absolute;
     top: 0px;
-    right: 15px;
-    font-size: 1rem;
+    right: 40%;
+    font-size: 1.5rem;
     color: #0e2431;
   }
   
