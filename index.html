@@ -8,6 +8,13 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <script>
+        var popone= $("pop")[0];
+        $(".dropdown")
+        .mouseenter(function(){
+            Popsound.play();
+        });
+    </script>
     <header>
         <img src="image/logo2.png" alt="zabs" class="logo">
         <nav>
@@ -21,10 +28,17 @@
                       </a>
                     </button>
                     <div class="dropdown-content">
+                        <audio id="pop" src="sound/Popsound.mp3" preload="auto"></audio>
                       <div class="row">
                           <ul>
-                              <a href="">2D Animation</a>
-                              <a href="">3D Animation</a>
+                              <a href="#">Graphic 2D/3D</a>
+                              <a href="#">Logo Design</a>
+                              <a href="#">Character Design</a>
+                              <a href="#">2D Animation</a>
+                              <a href="#">Explainer Video</a>
+                              <a href="#">Intro Outro</a>
+                              <a href="#">Pitch Overlay Design</a>
+                              <a href="#">White Board Animation</a>
                           </ul>
                       </div>  
                       </div>

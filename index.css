@@ -21,7 +21,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 0px 20px;
-    background-color: gainsboro;
+    background-color: rgb(255, 255, 255);
     border-radius: 0px 0px 20px 20px;
 
 }
@@ -39,7 +39,7 @@ header{
     background-color: transparent;
     display: inline-block;
     padding: 0px 10px;
-    transition: all 0.3s ease 0s;
+    transition: 0.3s;
     color: black;
     
   }
@@ -47,6 +47,8 @@ header{
   .navbar a:hover, .dropdown:hover .dropbtn {
     color: #FFB72B;
     font-size: 30px;
+    background-color: #333;
+    border-radius: 25px;
   }
   
   .dropdown-content {
@@ -62,12 +64,12 @@ header{
   .dropdown:hover .dropdown-content {
     display: block;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #ffffff;
     width: 25%;
     margin-top: 0px;
     text-align: center;
     left: 30%;
-    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    box-shadow: 0px 8px 16px 0px rgb(0,0,0,0.2);
     z-index: 1;
     border-radius: 10px;
 
@@ -85,6 +87,7 @@ header{
   }
   .dropdown .row ul a:hover{
       background-color: #FFB72B;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   }
   
   /* Create three equal columns that floats next to each other */
@@ -126,7 +129,11 @@ header{
 }
 .nav_links li a:hover{
     color: #FFB72B;
+    background-color: #333;
+    border-radius: 25px;
     font-size: 30px;
+    padding-left: 20px ;
+    padding-right: 20px;
 }
 
 .cta button{
