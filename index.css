@@ -208,7 +208,7 @@ img {
     -khtml-user-drag: none; 
     -moz-user-drag: none; 
     -o-user-drag: none; 
-    user-drag: none; 
+    user-zoom: none; 
   }
 
 
@@ -239,7 +239,7 @@ img {
 
 }
 .about #D{
-    color: #FFFF;
+    color: rgb(200, 200, 200);
 
 }
 .about #IA{

@@ -294,26 +294,6 @@ header h1{
     text-shadow: 2px 2px black;
 }
 
-.hi{
-  display: inline-block;
-  font-size: 80pt;
-  transition: 300ms;
-}
-.hi:hover{
-  color: orange;
-}
-.hi::after {
-  content: '';
-  width: 0px;
-  height: 10px;
-  display: block;
-  background: orange;
-  transition: 300ms;
-}
-.hi:hover::after {
-  width: 100%;
-  text-decoration: underline;   
-}
 .about{
   font-size: 20pt;
   color: white;
