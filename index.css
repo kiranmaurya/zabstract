@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@600&family=Grape+Nuts&display=swap');
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
     .header{
      width: 100%;
      height: auto;
@@ -10,9 +10,24 @@
        padding: 0px 20px;
        font-size: 10px;
    }
+   .heading{
+       font-size: 50pt;
+       display: none;
+   }
+   .about{
+       position: absolute;
+       margin-right: 0px;
+       width: 100%;
+
+
+   }
+   nav,.cta{
+       display: none;
+   }
  }
-*{
-    box-sizing: border-box;
+
+ *{
+    box-sizing : border-box ;
     margin: 0px;
     padding: 0px;
     font-family: 'Advent Pro', sans-ser;
@@ -175,7 +190,7 @@ header{
                  -32px 32px #f9a825,
                  -36px 36px #ff5722;
 } */
-.heading,#zabs{
+.heading{
     margin-top: 0px;
     margin-bottom: 50px;
     text-align: right;
