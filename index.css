@@ -48,7 +48,7 @@ body{
     nav {
       position: relative;
     }
-  
+
     .hamburger {
       position: absolute;
       cursor: pointer;
@@ -61,7 +61,7 @@ body{
     .nav-links {
       position: fixed;
       background: #ffc745;
-      height: 100vh;
+      height: 70vh;
       width: 100%;
       flex-direction: column;
       clip-path: circle(100px at 90% -10%);
