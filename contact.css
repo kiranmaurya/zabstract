@@ -190,3 +190,11 @@ input:focus {
 
   }
 }
+.social_handle{
+  font-size: 1.5em;
+  color: #fff;
+  }
+  .social_handle a i{
+  color: #fff;
+  margin: 0 5px;
+  }
