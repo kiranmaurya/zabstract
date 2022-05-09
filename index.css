@@ -116,6 +116,9 @@ body{
       color: aliceblue;
       font-size: 30px;
   }
+  .dropbtn{
+    font-size: 17px;
+  }
   .dropdown .dropbtn {
     border: none;
     background-color: transparent;
@@ -277,11 +280,16 @@ img {
         padding: 2px;
     }
     .about{
-        margin-top: 300px;
+        margin-top: 150px;
         width: 150px;
         font-size: 8pt;
         display: flex;
         justify-content: left;
+        position: static;
+    }
+    .dropbtn{
+      font-size: 25px;
+      margin-right: 20px;
     }
 }
 footer {
