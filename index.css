@@ -273,7 +273,7 @@ img {
     -36px 36px #A0A0A0;
 
 }
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 850px) {
     .heading {
         font-size: 40pt;
         text-align: center;
