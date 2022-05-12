@@ -162,3 +162,15 @@ footer:hover{
   color: #fff;
   margin: 0 5px;
   }
+  #card{
+    display: none;
+  }
+  @media screen and (max-width: 800px) {
+    #dock-container{
+      display: none;
+    }
+    #card{
+      display: inline;
+      text-align: center;
+    }
+  }
