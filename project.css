@@ -54,7 +54,6 @@
     }
   
     .nav-links {
-      position: fixed;
       background: #ffc745;
       height: 70vh;
       width: 100%;
@@ -228,6 +227,17 @@ i {
 .container a {
   text-decoration: none;
   color: #414141;
+}
+@media screen and (max-width: 800px){
+  .container{
+    display: inline;
+    position: static;
+    height: 50px;
+    width: 50px;
+  }
+  .card{
+    margin-left: 20%;
+  }
 }
 footer {
   background-color: #333;

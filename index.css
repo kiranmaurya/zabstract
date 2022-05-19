@@ -252,7 +252,7 @@ img {
     font-size: 20pt;
     color: rgb(0, 0, 0);
     background-color: white;
-    width: 400px;
+    width: 300px;
     border-radius: 25px;
     padding: 2%;
     margin: 100px;
@@ -282,7 +282,7 @@ img {
     }
     .about{
         margin-top: 150px;
-        width: 400px;
+        width: 250px;
         font-size: 18pt;
         display: flex;
         justify-content: left;
