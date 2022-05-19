@@ -109,8 +109,8 @@
 
   @media screen and (max-width: 800px){
     .about{
-      font-size: 10pt;
-      width: 200px;
+      font-size: 20pt;
+      width: 300px;
       margin: 50px;
     }
   }
