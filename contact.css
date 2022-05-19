@@ -181,12 +181,12 @@ input:focus {
 @media screen and (max-width: 800px){
   .details, .contact{
       text-align: center;
-      width: 70%;
+      width: 50%;
     
   }
   #name, #email, #number, #mess{
       margin: 2%;
-      width: 55%;
+      width: 50%;
 
   }
 }
